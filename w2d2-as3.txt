@@ -1,0 +1,4 @@
+	Event driven architecture is a software architecture pattern that is centered around production, detection, consumption of, and reaction to Events,
+which are pretty much any significant change in state. The pattern is typically designed on top of message-driven architectures, with loosely coupled software
+components and services. The architecture is built on four logical layers: the event generator (which notices a change in state and generates an Event), the event processing engine (which identifies and picks a course of action around the event), the event channel (which transfers events from the generator to the processing engine) and the downstream event-driven activity (where the consequences of the event are shown). This architecture is very loosely coupled and well
+distributed because an Event can be anything and be anywhere and because the Event knows nothing the consequences of its cause.
